@@ -34,6 +34,14 @@ sensor:
     id: bed_presence_uptime
     name: Uptime
 
+  - platform: dht
+    pin: GPIO4
+    temperature:
+      name: "Master Bedroom Temperature"
+    humidity:
+      name: "Master Bedroom Humidity"
+    update_interval: 60s
+
 binary_sensor:
   - platform: template
     name: Bed Occupied Both (Fast)
