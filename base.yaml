@@ -4,14 +4,14 @@ packages:
     vars:
       sensor_name: Left
       sensor_id: left
-      sensor_gpio: D5
+      sensor_gpio: GPIO14
 
   right_bed_sensor: !include
     file: sensor.yaml
     vars:
       sensor_name: Right
       sensor_id: right
-      sensor_gpio: D6
+      sensor_gpio: GPIO12
 
 sensor:
   - platform: wifi_signal   # Reports the WiFi signal strength in dB
