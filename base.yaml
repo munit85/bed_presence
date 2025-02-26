@@ -11,7 +11,7 @@ packages:
     vars:
       sensor_name: Right
       sensor_id: right
-      sensor_gpio: GPIO25
+      sensor_gpio: GPIO32
 
 sensor:
   - platform: wifi_signal   # Reports the WiFi signal strength in dB
